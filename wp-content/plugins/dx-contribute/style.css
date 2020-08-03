@@ -1,0 +1,111 @@
+@charset "utf-8";
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+body{
+    background-color:#fff;
+    font-family:"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
+#DX-Contribute{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#DX-Contribute p{
+    text-indent:0;
+	font-size:12px;
+	line-height:20px;
+	padding-bottom:10px;
+}
+#DX-Contribute p input,#DX-Contribute p select{
+	
+
+    padding:20px;
+    font-size:13px;
+   
+    
+}
+
+#DX-Contribute p input::-webkit-input-placeholder {
+    color:#bfbdbd;
+}
+#DX-Contribute p input::-moz-placeholder {
+    color:#e6e6e6;
+}
+#DX-Contribute p input::-ms-input-placeholder {
+    color:#e6e6e6;
+}
+
+
+
+
+#DX-Contribute p label{
+ font-size:16px;
+ /* font-weight: 600; */
+ color:#9a9896;
+}
+#DX-Contribute label{
+	/* width:50px; */
+	cursor:pointer;
+	display:inline-block;
+}
+ #DX-Contribute p select {
+    padding: 15px 332px;
+    font-size: 13px;
+}
+#DX-Contribute  input.DXC-input{
+	width:100%;
+	height:20px;
+	line-height:20px;
+}
+input#DXC-submit{
+	cursor:pointer;
+	height:30px;
+	padding:0 10px;
+}
+#DX-Contribute span.asterisk{
+	color:red;
+	margin-left:5px;
+}
+#DXC-title-num b, #DXC-content-num b{
+	font-size:14px;
+	font-weight:bold;
+	color:green;
+	font-style:italic;
+}
+#DXC-content-num{
+	margin-top:10px;
+	color:gray;
+	display:block;
+}
+#DX-Contribute .DXC-description{
+	color:gray;
+	margin-left:5px;
+}
+#DXC-note{
+	color:red;
+}
+
+
+.mce-container, .mce-container *, .mce-widget, .mce-widget *, .mce-reset{
+
+background: #fff;
+
+}
+.wp-media-buttons {
+   
+    position: absolute;
+    top: 40px;
+    right: 100px;
+
+}
+.article-title {
+    margin: 0 0 10px;
+    /* font-weight: 700; */
+    font-size: 1.7em;
+}
+
+
+#DX-Contribute p .send-btned{
+	 padding:20px 50px;
+    font-size:13px;
+    text-align:center;
+    line-height:7px;
+
+}
